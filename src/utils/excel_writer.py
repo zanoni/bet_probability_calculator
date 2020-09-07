@@ -32,7 +32,7 @@ class ExcelWriter(object):
                 worksheet=worksheet,
                 excel_writer=self,
             )
-        workbook.save(f"{self.filename}.xlsx")
+        workbook.save(f"generated_probabilities/{self.filename}.xlsx")
 
 
 def excel_writer_of(
